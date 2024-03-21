@@ -51,6 +51,7 @@ while i<max_fails:
             i+= 1
     else:
         print("Error")
+        continue
  
     # Mostrar la palabra parcialmente adivinada
     letters = []
