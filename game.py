@@ -40,11 +40,10 @@ while i<max_fails:
             print("Ya has intentado con esa letra. Intenta con otra.")
             continue
     
-    # Agregar la letra a la lista de letras adivinadas
-    guessed_letters.append(letter)
+        # Agregar la letra a la lista de letras adivinadas
+        guessed_letters.append(letter)
     
-    # Verificar si la letra está en la palabra secreta
-    if letter != "":
+        # Verificar si la letra está en la palabra secreta
         if letter in secret_word:
             print("¡Bien hecho! La letra está en la palabra.")
         else:
